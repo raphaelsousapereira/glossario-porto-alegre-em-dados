@@ -4,6 +4,10 @@
 
 O índice reúne 400 termos em dez temas. O [primeiro lote de 30 verbetes](verbetes.md) está disponível. Os links em **negrito** levam à definição, ao exemplo e à fonte de cada termo. As demais referências são pontos de partida por tema.
 
+## Piloto de leitura
+
+[Baixe o HTML do piloto](https://raw.githubusercontent.com/raphaelsousapereira/glossario-porto-alegre-em-dados/main/demo/index.html) e abra o arquivo no navegador. No texto de exemplo, **empenho**, **despesa liquidada** e **despesa paga** revelam a definição na página, com acesso ao verbete completo no GitHub. Enter e Espaço abrem ou fecham o bloco. Esc fecha e devolve o foco ao termo. Com JavaScript desativado, o termo funciona como link direto.
+
 ## Orçamento, impostos e gasto público
 
 - **[Empenho](verbetes.md#empenho)**

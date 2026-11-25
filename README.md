@@ -2,13 +2,13 @@
 
 Índice público de termos usados ou previstos na cobertura de [Porto Alegre em Dados](https://portoalegreemdados.com.br/).
 
-O índice reúne 400 termos em dez temas. Os 30 termos em **negrito** têm prioridade na redação dos verbetes. As referências são pontos de partida por tema. Cada verbete receberá uma fonte específica na redação.
+O índice reúne 400 termos em dez temas. O [primeiro lote de 30 verbetes](verbetes.md) está disponível. Os links em **negrito** levam à definição, ao exemplo e à fonte de cada termo. As demais referências são pontos de partida por tema.
 
 ## Orçamento, impostos e gasto público
 
-- **Empenho**
-- **Despesa liquidada**
-- **Despesa paga**
+- **[Empenho](verbetes.md#empenho)**
+- **[Despesa liquidada](verbetes.md#despesa-liquidada)**
+- **[Despesa paga](verbetes.md#despesa-paga)**
 - Dotação inicial
 - Dotação atualizada
 - Despesa autorizada
@@ -51,9 +51,9 @@ Referências do tema. [Glossário da Câmara e do Senado](https://www2.senado.le
 
 ## Contratos, transparência e administração municipal
 
-- **Valor homologado**
-- **Termo aditivo**
-- **Lei de Acesso à Informação (LAI)**
+- **[Valor homologado](verbetes.md#valor-homologado)**
+- **[Termo aditivo](verbetes.md#termo-aditivo)**
+- **[Lei de Acesso à Informação (LAI)](verbetes.md#lei-de-acesso-a-informacao)**
 - Licitação
 - Edital
 - Termo de referência
@@ -96,9 +96,9 @@ Referências do tema. [Lei de Licitações](https://www.planalto.gov.br/ccivil_0
 
 ## Cheias, drenagem, clima e saneamento
 
-- **Pôlder**
-- **Mancha de inundação**
-- **Cota de inundação**
+- **[Pôlder](verbetes.md#polder)**
+- **[Mancha de inundação](verbetes.md#mancha-de-inundacao)**
+- **[Cota de inundação](verbetes.md#cota-de-inundacao)**
 - Dique
 - Comporta
 - Casa de bombas
@@ -141,9 +141,9 @@ Referências do tema. [DMAE](https://prefeitura.poa.br/dmae/sistema-de-protecao-
 
 ## Bairros, mapas, obras e Plano Diretor
 
-- **Zoneamento**
-- **Índice de aproveitamento**
-- **Taxa de permeabilidade**
+- **[Zoneamento](verbetes.md#zoneamento)**
+- **[Índice de aproveitamento](verbetes.md#indice-de-aproveitamento)**
+- **[Taxa de permeabilidade](verbetes.md#taxa-de-permeabilidade)**
 - Plano Diretor
 - Regime urbanístico
 - Uso do solo
@@ -186,9 +186,9 @@ Referências do tema. [Estatuto da Cidade](https://www.planalto.gov.br/ccivil_03
 
 ## Mobilidade, ônibus e trânsito
 
-- **Tarifa técnica**
-- **Tarifa pública**
-- **Subsídio tarifário**
+- **[Tarifa técnica](verbetes.md#tarifa-tecnica)**
+- **[Tarifa pública](verbetes.md#tarifa-publica)**
+- **[Subsídio tarifário](verbetes.md#subsidio-tarifario)**
 - Câmara de Compensação Tarifária
 - Planilha tarifária
 - Índice de Passageiros por Quilômetro (IPK)
@@ -231,9 +231,9 @@ Referências do tema. [EPTC](https://prefeitura.poa.br/eptc) · [Código de Trâ
 
 ## Saúde pública e vigilância em saúde
 
-- **Unidade de saúde de referência**
-- **Fila regulada**
-- **Cobertura da Atenção Primária**
+- **[Unidade de saúde de referência](verbetes.md#unidade-de-saude-de-referencia)**
+- **[Fila regulada](verbetes.md#fila-regulada)**
+- **[Cobertura da Atenção Primária](verbetes.md#cobertura-da-atencao-primaria)**
 - Sistema Único de Saúde (SUS)
 - Atenção Primária à Saúde (APS)
 - Estratégia Saúde da Família (ESF)
@@ -276,9 +276,9 @@ Referências do tema. [Ministério da Saúde](https://www.gov.br/saude/pt-br/com
 
 ## Educação, escolas e creches
 
-- **Matrícula conveniada**
-- **Manutenção e Desenvolvimento do Ensino (MDE)**
-- **Fundeb**
+- **[Matrícula conveniada](verbetes.md#matricula-conveniada)**
+- **[Manutenção e Desenvolvimento do Ensino (MDE)](verbetes.md#manutencao-e-desenvolvimento-do-ensino)**
+- **[Fundeb](verbetes.md#fundeb)**
 - Censo Escolar
 - Rede municipal de ensino
 - Rede conveniada
@@ -321,9 +321,9 @@ Referências do tema. [Inep — Censo Escolar](https://www.gov.br/inep/pt-br/are
 
 ## Segurança pública e indicadores criminais
 
-- **Homicídio doloso**
-- **Taxa por 100 mil habitantes**
-- **Boletim de ocorrência**
+- **[Homicídio doloso](verbetes.md#homicidio-doloso)**
+- **[Taxa por 100 mil habitantes](verbetes.md#taxa-por-100-mil-habitantes)**
+- **[Boletim de ocorrência](verbetes.md#boletim-de-ocorrencia)**
 - Homicídio culposo
 - Feminicídio
 - Latrocínio
@@ -366,9 +366,9 @@ Referências do tema. [SSP-RS](https://ssp.rs.gov.br/indicadores-criminais) · [
 
 ## Habitação, assistência social e limpeza urbana
 
-- **Cadastro Único (CadÚnico)**
-- **CRAS**
-- **Resíduo volumoso**
+- **[Cadastro Único (CadÚnico)](verbetes.md#cadastro-unico)**
+- **[CRAS](verbetes.md#cras)**
+- **[Resíduo volumoso](verbetes.md#residuo-volumoso)**
 - Sistema Único de Assistência Social (SUAS)
 - CREAS
 - Centro POP
@@ -411,9 +411,9 @@ Referências do tema. [Ministério do Desenvolvimento e Assistência Social](htt
 
 ## População, economia, dados e políticas culturais
 
-- **Estimativa populacional**
-- **Valor real**
-- **Mediana**
+- **[Estimativa populacional](verbetes.md#estimativa-populacional)**
+- **[Valor real](verbetes.md#valor-real)**
+- **[Mediana](verbetes.md#mediana)**
 - Censo Demográfico
 - População residente
 - Projeção populacional

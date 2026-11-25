@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piloto do glossário | Porto Alegre em Dados</title>
+<style>
+  body { margin: 0; background: #fbfaf6; color: #18231f; font: 1.125rem/1.6 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); line-height: 1.15; }
+  [hidden] { display: none !important; }
+  .definicao:not([hidden]), .texto { display: block; }
+  a, button { color: #004e42; }
+  button { font: inherit; background: transparent; border: 0; padding: 0 .125rem; cursor: pointer; text-decoration: underline; text-underline-offset: .2em; min-height: 24px; }
+  :focus-visible { outline: 2px solid #004e42; outline-offset: 3px; }
+  .definicao { margin: 1rem 0; padding: 1rem; border-inline-start: .25rem solid #004e42; background: #e9f1eb; }
+  .definicao .texto { margin: .5rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Como acompanhar uma despesa municipal</h1>
+  <p>Exemplo ilustrativo de Porto Alegre em Dados.</p>
+  <p>Na compra de carteiras escolares, o município registra o <a class="fallback" href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#empenho">empenho</a><button type="button" hidden aria-expanded="false" aria-controls="empenho">empenho</button>.
+    Após conferir a entrega, registra a <a class="fallback" href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#despesa-liquidada">despesa liquidada</a><button type="button" hidden aria-expanded="false" aria-controls="despesa-liquidada">despesa liquidada</button>.
+    Quando o fornecedor recebe, o registro passa a mostrar a <a class="fallback" href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#despesa-paga">despesa paga</a><button type="button" hidden aria-expanded="false" aria-controls="despesa-paga">despesa paga</button>.</p>
+  <span class="definicao" role="group" id="empenho" aria-labelledby="titulo-empenho" hidden>
+    <strong id="titulo-empenho">Empenho</strong>
+    <span class="texto">Ato que compromete parte do orçamento para uma despesa e cria para o poder público uma obrigação de pagamento, sujeita às condições aplicáveis.</span>
+    <a href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#empenho" aria-label="Ver verbete no GitHub: Empenho">Ver verbete completo no GitHub</a>
+  </span>
+  <span class="definicao" role="group" id="despesa-liquidada" aria-labelledby="titulo-despesa-liquidada" hidden>
+    <strong id="titulo-despesa-liquidada">Despesa liquidada</strong>
+    <span class="texto">Despesa cuja comprovação foi conferida e cujo valor devido e beneficiário foram identificados.</span>
+    <a href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#despesa-liquidada" aria-label="Ver verbete no GitHub: Despesa liquidada">Ver verbete completo no GitHub</a>
+  </span>
+  <span class="definicao" role="group" id="despesa-paga" aria-labelledby="titulo-despesa-paga" hidden>
+    <strong id="titulo-despesa-paga">Despesa paga</strong>
+    <span class="texto">Despesa cujo pagamento já foi efetuado ao credor.</span>
+    <a href="https://github.com/raphaelsousapereira/glossario-porto-alegre-em-dados/blob/main/verbetes.md#despesa-paga" aria-label="Ver verbete no GitHub: Despesa paga">Ver verbete completo no GitHub</a>
+  </span>
+</main>
+<script>
+  const controls = [...document.querySelectorAll('button[aria-controls]')];
+
+  function setExpanded(control, expanded) {
+    const panel = document.getElementById(control.getAttribute('aria-controls'));
+    panel.hidden = !expanded;
+    control.setAttribute('aria-expanded', String(expanded));
+  }
+
+  for (const control of controls) {
+    const fallback = control.previousElementSibling;
+    const panel = document.getElementById(control.getAttribute('aria-controls'));
+    // Keep the next keyboard stop inside the disclosure, then return to the sentence.
+    control.after(panel);
+    control.addEventListener('click', () => {
+      const expanded = control.getAttribute('aria-expanded') === 'true';
+      for (const other of controls) setExpanded(other, false);
+      if (!expanded) setExpanded(control, true);
+    });
+    panel.addEventListener('keydown', closeOnEscape);
+    control.addEventListener('keydown', closeOnEscape);
+    function closeOnEscape(event) {
+      if (event.key === 'Escape' && !panel.hidden) {
+        setExpanded(control, false);
+        control.focus();
+      }
+    }
+    fallback.hidden = true;
+    control.hidden = false;
+  }
+</script>
+</body>
+</html>
